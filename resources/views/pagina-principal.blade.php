@@ -158,15 +158,40 @@
 
       </ul>
 
-      <!-- Icons -->
-      <ul class="navbar-nav d-flex flex-row me-1">
-        <li class="nav-item me-3 me-lg-0">
-          <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
-        </li>
-        <li class="nav-item me-3 me-lg-0">
-          <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
-        </li>
-      </ul>
+  <!-- Avatar -->
+  <div class="dropdown">
+        <a
+          class="dropdown-toggle d-flex align-items-center hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuAvatar"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <img
+            src="/images/pedro.jpg"
+            class="rounded-circle"
+            height="25"
+            alt="Foto de Perfil"
+            loading="lazy"
+          />
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuAvatar"
+        >
+          <li>
+            <a class="dropdown-item" href="#">Meu perfil</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Configurações de Usuário</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Sair</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
      
 
