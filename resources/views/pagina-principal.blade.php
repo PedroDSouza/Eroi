@@ -192,9 +192,6 @@
         </ul>
       </div>
     </div>
-
-     
-
     </div>
   </div>
   <!-- Container wrapper -->
@@ -202,7 +199,12 @@
 <!-- Navbar -->
 
 <!-- Background image -->
+        <div>
+          Teste123 - precisamos resolver isso!
+          
 
+
+        </div>
 <!-- Background image -->
       
 <footer class="text-center text-white fixed-bottom" style="background-color: #3E534B ;"> 
