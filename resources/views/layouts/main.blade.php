@@ -198,7 +198,7 @@
 </nav>
 <!-- Navbar -->
 
-@yield('conten')
+@yield('content')
 
 
 <footer class="text-center text-white fixed-bottom" style="background-color: #3E534B ;"> 
@@ -210,7 +210,7 @@
 
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-     Sistema Eroi Pro ©  {{$ano}}: 
+     Sistema Eroi Pro ©  2022: 
     <a class="text-white" href="https://loureiro.com.br">eroi.com.br</a>
   </div>
   <!-- Copyright -->

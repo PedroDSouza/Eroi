@@ -13,18 +13,26 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
 
     $nome = "Pedrov";
     $idade = 22;
 
     return view('welcome', ['nome' => $nome, 'idade' => $idade]);
 });
+*/
+
+Route::get('/', function () {
+
+    return view('login');
+});
+
 
 Route::get('/principal', function () {
 
-    $nome = "Pedro de Souza";
-    $ano = 2022;
+    //$nome = "Pedro de Souza";
+    //$ano = 2022;
     
-    return view('pagina-principal', ['nome' => $nome, 'ano' => $ano]);
+   // return view('pagina-principal', ['nome' => $nome, 'ano' => $ano]);
+   return view('pagina-principal');
 });
