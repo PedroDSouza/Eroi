@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.main-basico')
 
 @section('content')
 <!-- Background image -->
